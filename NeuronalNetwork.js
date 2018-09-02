@@ -1,7 +1,7 @@
 class NeuronalNetwork{
     
     constructor(weights, structure, ActivationO){
-        this.weights = weights; //gewichte der verbindungen des neurons ohne ([[[0.5,-1],[1,0.2]], [[3,2,5],[2,1,5,1]]])
+        this.weights = weights; //gewichte der verbindungen des neurons ohne ([[[0.5,-1],[1,0.2]], [[3,2,5],[2,1,5]]])
         this.structure = structure; //[2,2,3]
         this.ActivationO = ActivationO;
     }
